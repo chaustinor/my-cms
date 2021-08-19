@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: chaustinor
+  repo: chaustinor/my-cms
 
 media_folder: "public/images"
 public_folder: "images"
@@ -11,7 +11,7 @@ collections:
     files:
       - file: public/manifest.json
         name: manifest
-        label: 'Manifest Settings'
+        label: 'Manifest Settings test'
         fields:
           - name: short_name
             label: 'Short Name'
